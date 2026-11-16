@@ -1,0 +1,6 @@
+{
+  "_comment": "People the automation must never reply to. IGNORE = never reply, just mark read. HOLD = never reply, mark read, and mention them in the daily message (the owner is handling it). Matched on any email, order number or full name.",
+  "entries": [
+    { "name": "Example Customer", "mode": "HOLD", "emails": ["example@gmail.com"], "orders": ["1001"], "names": ["Example Customer"], "why": "owner is arranging this by hand" }
+  ]
+}

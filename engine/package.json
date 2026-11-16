@@ -1,0 +1,14 @@
+{
+  "name": "support-inbox-automator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily customer support email run for D2C stores, powered by Claude Code",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "check": "node check.mjs all",
+    "dry-run": "node run.mjs --dry-run",
+    "run": "node run.mjs --now"
+  },
+  "license": "MIT"
+}

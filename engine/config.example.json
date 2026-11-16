@@ -1,0 +1,32 @@
+{
+  "brandName": "My Store",
+  "supportEmail": "support@mystore.com",
+  "signOff": "Take care,\nMy Store Support",
+  "timezone": "Asia/Kolkata",
+  "runTime": "15:00",
+  "runDays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+  "mode": "drafts",
+  "model": "claude-sonnet-5-5",
+  "maxCustomersPerRun": 40,
+  "scanFloorDate": null,
+  "orderPrefix": "#",
+  "orderSuffix": "",
+  "contactFormSenders": ["mailer@shopify.com"],
+  "ourAddresses": [],
+  "labels": {
+    "ready": { "name": "Ready to send", "id": "" },
+    "readFirst": { "name": "Read first", "id": "" }
+  },
+  "fulfillment": {
+    "mode": "track",
+    "lookbackDays": 14,
+    "shipAutomatorDir": "",
+    "bookReshipsAfterRun": false,
+    "reshipCases": ["courier_cancelled", "pickup_cancelled", "rto_address_confirmed"],
+    "neverReshipProducts": []
+  },
+  "bannedPhrases": [],
+  "disabledChecks": [],
+  "noEmDashes": true,
+  "notify": { "type": "none" }
+}

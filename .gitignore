@@ -1,0 +1,9 @@
+node_modules/
+engine/.env
+engine/config.json
+engine/people.json
+engine/playbook/policies.md
+engine/PAUSE.txt
+engine/data/
+engine/logs/
+.DS_Store
